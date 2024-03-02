@@ -1,0 +1,1 @@
+# rspack-with-svg-sprite-loader
