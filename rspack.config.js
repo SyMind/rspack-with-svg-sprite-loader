@@ -50,9 +50,16 @@ const config = {
 					}
 				]
 			},
+			// {
+			// 	test: /\.svg/,
+			// 	type: "asset/resource"
+			// },
 			{
-				test: /\.svg/,
-				type: "asset/resource"
+				test: /\.svg$/,
+				loader: 'svg-sprite-loader',
+				options: {
+					symbolId: 'icon-[name]'
+				}
 			}
 		]
 	}

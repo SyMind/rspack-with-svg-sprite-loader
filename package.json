@@ -9,6 +9,7 @@
     "build": "rspack build"
   },
   "dependencies": {
+    "svg-sprite-loader": "^6.0.11",
     "vue": "3.2.45"
   },
   "devDependencies": {
